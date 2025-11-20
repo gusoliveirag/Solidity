@@ -173,7 +173,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/calculadora.sol": "Exemplovariavel"
+			"contracts/calculadora soma.sol": "Exemplovariavel"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -187,7 +187,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/calculadora.sol": {
+		"contracts/calculadora soma.sol": {
 			"keccak256": "0x6c0f9c9f30f6b1dfa8256e7273f8fd3ae43944467182dc00267ba7b62b5f5d14",
 			"license": "MIT",
 			"urls": [
