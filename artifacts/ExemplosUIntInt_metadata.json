@@ -252,7 +252,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AulasNearX/Varivaies.sol": "ExemplosUIntInt"
+			"AulasNearX/Variavaies.sol": "ExemplosUIntInt"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -266,7 +266,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"AulasNearX/Varivaies.sol": {
+		"AulasNearX/Variavaies.sol": {
 			"keccak256": "0x2f0454ad74cd27106aef403c7db900d8a9447beb14cbd7803fb6e4760b39338e",
 			"license": "MIT",
 			"urls": [

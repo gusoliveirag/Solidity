@@ -18,12 +18,108 @@
 						"type": "uint256"
 					}
 				],
+				"name": "calculaMultiplicacao",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
 				"name": "calcularMedia",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "compararNumeros",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "a",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					}
+				],
+				"name": "testarE",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "a",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					}
+				],
+				"name": "testarOu",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
@@ -43,7 +139,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AulasNearX/Operadores1.sol": "Operadores"
+			"AulasNearX/Operadores.sol": "Operadores"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -57,12 +153,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"AulasNearX/Operadores1.sol": {
-			"keccak256": "0x0838e568a8426d01467a7c81e9274a2dcee39d4929f302b756f64b740d6979f0",
+		"AulasNearX/Operadores.sol": {
+			"keccak256": "0xcb8e86bb7dfb7ba493e53afb32d491bbfd3cce6b4abc6dcbb2e791ec4bce4dbe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a1f6060d7882307c3e9105a6ccaec907b8026324de64e7311933bb6077d60964",
-				"dweb:/ipfs/QmaRV3bY5c1vsugh1YC7zWC5H664GhWMEn1tHQAFesmTh5"
+				"bzz-raw://ceb954cdc8c252fb0686ccd618b510a0144917739e9ced468318776a75fd4e4e",
+				"dweb:/ipfs/QmQ7ZxmZBW1dXNXkfgCyiaAoyRUHsh7YZabM4bLBHA7UYQ"
 			]
 		}
 	},

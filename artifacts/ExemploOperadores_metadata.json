@@ -213,7 +213,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AulasNearX/Operadores1.sol": "ExemploOperadores"
+			"AulasNearX/Operadores.sol": "ExemploOperadores"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -227,7 +227,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"AulasNearX/Operadores1.sol": {
+		"AulasNearX/Operadores.sol": {
 			"keccak256": "0xdf5dfe593f74a37d4f58a84a2e21fe668571df842e44fd45fe5a25936e67bd27",
 			"license": "GPL-3.0",
 			"urls": [

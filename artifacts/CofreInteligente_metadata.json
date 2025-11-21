@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "depositar",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sacarTudo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "verSaldoDoCofre",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts Banking/cofre.sol": "CofreInteligente"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts Banking/cofre.sol": {
+			"keccak256": "0x771f7e2fa88f66b8f78fdb69d9705c6cd79ee1730408a8392e0d3de6f6970688",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf12bf531085a0e3ac55d61b4413bc6eacc6e8c0361d08b28c421de4f34765e1",
+				"dweb:/ipfs/QmcsSHWxEu1Y9ggKPf2yhcRqYUdh9y6EwqSNQ9yPtYvoLL"
+			]
+		}
+	},
+	"version": 1
+}
