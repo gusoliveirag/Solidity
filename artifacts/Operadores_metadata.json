@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "calcularMedia",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AulasNearX/Operadores1.sol": "Operadores"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AulasNearX/Operadores1.sol": {
+			"keccak256": "0x0838e568a8426d01467a7c81e9274a2dcee39d4929f302b756f64b740d6979f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1f6060d7882307c3e9105a6ccaec907b8026324de64e7311933bb6077d60964",
+				"dweb:/ipfs/QmaRV3bY5c1vsugh1YC7zWC5H664GhWMEn1tHQAFesmTh5"
+			]
+		}
+	},
+	"version": 1
+}

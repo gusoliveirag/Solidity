@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AulasNearX/yulOpcode.sol": "opcodeGa"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AulasNearX/yulOpcode.sol": {
+			"keccak256": "0xfc98cf59f94348f61fec40ee6c8b6e7d8f3e4adf71e15a4d3d178989582f5d9e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c28e28344f7b92cafcfeefa5217787e4ec6287b38485d94c7fe8e451b38d7348",
+				"dweb:/ipfs/QmbcaCCkNm2r2mz9v1PgtKWuFyUtXVk64QijzjNc1ftgh3"
+			]
+		}
+	},
+	"version": 1
+}
