@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AulasNearX/herancas.sol": "x"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AulasNearX/herancas.sol": {
+			"keccak256": "0xa67b07cfa9a64ed58ea008de2512d89078f41206f7077e3449d7f53c77ea57b6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa281b259023897ff95c017ba61306a5337e237e57362d934f4e8bbc5a84e241",
+				"dweb:/ipfs/QmU62gT3GaAmdsWhrdFyzX9GcmbFNNHZmz1iQ92AhAemTw"
+			]
+		}
+	},
+	"version": 1
+}

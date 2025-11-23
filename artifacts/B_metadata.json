@@ -6,19 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "name",
+				"outputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "",
 						"type": "string"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "name",
+				"name": "text",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -43,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AulasNearX/herancas.sol": "X"
+			"AulasNearX/herancas.sol": "B"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

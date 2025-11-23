@@ -6,6 +6,27 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idade",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_endereco",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "endereco",
 				"outputs": [
@@ -45,6 +66,45 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_endereco",
+						"type": "address"
+					}
+				],
+				"name": "setEndereco",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idade",
+						"type": "uint256"
+					}
+				],
+				"name": "setIdade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					}
+				],
+				"name": "setNome",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "sucess",
 				"outputs": [
@@ -71,7 +131,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AulasNearX/Operadores1.sol": "UserData"
+			"AulasNearX/interface.sol": "UserData"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -85,12 +145,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"AulasNearX/Operadores1.sol": {
-			"keccak256": "0x3155f4eadf0c08fb4a1f8a92e8f93ef9578160b926c1e0f059a44edc384fef52",
+		"AulasNearX/interface.sol": {
+			"keccak256": "0x12b5654853ec1679f9a6546fd70fe9388c4220c8a836e8b16a82c4b86d6e58cc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://131a186fe52cb4a585edce9387372dd0ca9e49eff70f505de8886b7fa0bfc054",
-				"dweb:/ipfs/Qmf2dV5CJQhktnKevNTJeM7N1k2hWtWtSG4RJeXCzTnVDr"
+				"bzz-raw://443843e19586af575ceb24acb67cb2575d6d32616873e15b1613c771593828ac",
+				"dweb:/ipfs/QmY5pSbXcsH5BRhHT1Wzg8a3avsnwLenBaQbwqjUDwxKaS"
 			]
 		}
 	},

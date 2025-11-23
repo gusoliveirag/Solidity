@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "_text",
 						"type": "string"
 					}
 				],
@@ -18,7 +18,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "name",
+				"name": "text",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"AulasNearX/herancas.sol": "X"
+			"AulasNearX/herancas.sol": "Y"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
